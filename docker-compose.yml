@@ -20,7 +20,8 @@ services:
       MYSQL_DATABASE: CA4
       MYSQL_USER: member3
       MYSQL_PASSWORD: mlops123
-
+      
     volumes:
       - ./db:/docker-entrypoint-initdb.d:ro # Corrected volume path
+    
 
